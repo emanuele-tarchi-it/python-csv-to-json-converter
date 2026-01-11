@@ -27,6 +27,9 @@ Run the script:
 ```bash
 python csv_to_json.py
 ```
+💡 Pro Tip: Clean before you Convert
+For the best results, especially with messy datasets, I recommend running your files through my Python CSV Data Cleaner first. 
+This ensures all empty rows and hidden spaces are removed before the JSON conversion.
 
 ## 📄 License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
