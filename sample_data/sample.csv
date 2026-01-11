@@ -1,8 +1,4 @@
-Name,Age,City,Signup_Date
- John ,25, Rome ,2023-01-10
-,, ,
-Alice, 30,Milan,2023-02-15
-   , , ,
-Bob,invalid,London, 2023-03-20 
-Charlie, 22 , Venice,2023-04-05
-,, ,
+Name,Age,City,Role
+John,25,Rome,Developer
+Alice,30,Milan,Designer
+Bob,22,Venice,Manager
