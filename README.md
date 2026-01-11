@@ -1,32 +1,35 @@
-# Python CSV to JSON Converter
+# 📊 Python CSV to JSON Converter (GUI Edition)
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Pandas](https://img.shields.io/badge/library-Pandas-orange.svg)
+![Interface](https://img.shields.io/badge/UI-Tkinter-lightgrey.svg)
 
-A specialized tool for developers and data analysts to bridge the gap between spreadsheet data (CSV) and web-ready formats (JSON).
+A professional desktop application designed to bridge the gap between spreadsheet data (CSV) and web-ready formats (JSON) with a user-friendly interface.
 
 ## 🚀 Key Features
-- **Column Selection:** Choose only the data you need for your JSON output.
-- **Custom Formatting:** Control JSON indentation for better readability.
-- **Web Ready:** Exports in UTF-8 encoding to support international characters.
-- **High Performance:** Powered by Pandas for fast processing of large files.
+- **User-Friendly GUI:** No more editing code! Select files and save locations using standard system dialogs.
+- **Smart Conversion:** Powered by Pandas for high-speed processing of large datasets.
+- **Web Ready:** Exports in UTF-8 encoding to ensure international characters are preserved.
+- **Error Handling:** Built-in validation to prevent crashes during the conversion process.
 
 ## 🛠 Prerequisites
-Install the required library:
+The application requires the Pandas library for data processing:
 ```bash
 pip install pandas
 ```
 
 🛠 How to Use
-Place your CSV file in the project folder.
-
-Edit csv_to_json.py to set your desired input_file and columns.
-
-Run the script:
+1. Run the Application: Execute the main script:
 ```bash
-python csv_to_json.py
+python main.py
 ```
+2. Select Source: Click the "Sfoglia e Converti" button to pick your CSV file.
+
+3. Choose Destination: Specify where you want to save your new JSON file.
+
+4. Instant Feedback: A success message will confirm the number of records converted.
+
 ## 💡 Pro Tip: Clean before you Convert
 For the best results, especially with messy datasets, I recommend running your files through my Python CSV Data Cleaner first. 
 This ensures all empty rows and hidden spaces are removed before the JSON conversion.
